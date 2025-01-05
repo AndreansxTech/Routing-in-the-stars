@@ -1,4 +1,4 @@
-# Hi ! Happy to see you visiting my Homelab project
+# Hi ! 👋 Happy to see you visiting my Homelab project
 
 ## What is this about? 🧐
    This is a repository dedicated to documenting my journey with homelabing and general networking. I will upload the configuration files of my network hardware as well as servers configs and scripts if any will be made. 
