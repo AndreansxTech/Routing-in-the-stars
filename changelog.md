@@ -9,7 +9,8 @@ Dell PowerEdge R710 with:
   - Dual Intel Xeon E5520
   - Perc H700 RAID controller
   - 146GB Dell SAS HDD
-  - 600GB Dell SAS HDD </br>
+  - 600GB Dell SAS HDD </br> </br>
+
 Dell PowerEdge R610 with:
   - Six 2.5 slots for drives
   - 36 Gigs of ECC DDR3 RAM
