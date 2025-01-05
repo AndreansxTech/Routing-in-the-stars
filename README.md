@@ -9,4 +9,4 @@
    I learned some simple things about Proxmox Virtual Enviroment and realized how much potential it had. So I installed it on my R710. I created some simple VMs such as a Win11 or Ubuntu Server for a Minecraft Server.
 
 ## The goal 📈
-   The current goal of this project is to simply learn by practically experimenting with physical hardware for my dream of working in network engineering in the future.
+   I would love to work in network engineering in the future. I know that apart from the very important theoretical knowledge, the practical experience is the most important. That's why I picked up this project. Hopefully I will gain the useful knowledge and experience needed to land a job in my target field. A job in networking sure requires maintaining physical hardware. A homelab is a widely known way of learing to fix errors and learn from our own mistakes. 
