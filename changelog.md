@@ -1,5 +1,5 @@
 ## This will be the changelog file for my Homelab setup
-
+## ❗️ The changes are added above previous ones.
 ## October of 2024
 
   I bought two servers. Their specs are below: </br>
