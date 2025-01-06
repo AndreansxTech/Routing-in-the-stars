@@ -1,4 +1,7 @@
 # Hi ! 👋 Happy to see you visiting my Homelab project
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)
+
 
 ## What is this about? 🧐
    This is a repository dedicated to documenting my journey with homelabing and general networking. I will upload the configuration files of my network hardware as well as servers configs and scripts if any will be made. 
