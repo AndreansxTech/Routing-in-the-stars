@@ -1,11 +1,26 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="Strona-1" id="c445Fo20q1HLYoNn5whP">
-    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YA6DJJgO4RK9DE_Gpj88-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Home network diagram&lt;/h1&gt;&lt;p&gt;This is a WIP diagram showing how everything is connected in my home including my homelab&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="60" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YA6DJJgO4RK9DE_Gpj88-2" value="ISP Router&lt;div&gt;192.168.254.251&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YA6DJJgO4RK9DE_Gpj88-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=4;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="329" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YA6DJJgO4RK9DE_Gpj88-4" value="Internet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=21;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YA6DJJgO4RK9DE_Gpj88-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="YA6DJJgO4RK9DE_Gpj88-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
