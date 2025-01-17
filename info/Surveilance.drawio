@@ -1,9 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (iPhone; CPU iPhone OS 18_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Mobile/15E148 Safari/604.1" version="26.0.4">
   <diagram name="Strona-1" id="nJUvZh1QFVt4OPDC8kqH">
-    <mxGraphModel>
+    <mxGraphModel dx="1053" dy="975" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Wyhij3CR_IM3lct0uTAS-1" value="Home surveilance" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="62" y="16" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyhij3CR_IM3lct0uTAS-4" value="&lt;p&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Verdana&quot;&gt;This is a diagram that shows the surveilance configuration that I would like to achieve in the future&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="55" width="195" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyhij3CR_IM3lct0uTAS-5" value="Cisco WS-C3750-24PS-S R&amp;nbsp;&lt;div&gt;( PoE switch )&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="281" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyhij3CR_IM3lct0uTAS-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="493" y="253.73937153419593" as="sourcePoint" />
+            <mxPoint x="493" y="272.2606284658041" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wyhij3CR_IM3lct0uTAS-8" value="PoE Camera 1" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="56" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyhij3CR_IM3lct0uTAS-9" value="PoE Camera 1" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="188" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyhij3CR_IM3lct0uTAS-10" value="PoE Camera 1" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="320" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
