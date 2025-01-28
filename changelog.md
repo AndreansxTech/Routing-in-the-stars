@@ -1,5 +1,11 @@
 ## This will be the changelog file for my Homelab setup
 ## ❗️ The changes are added above previous ones.
+
+## January 2025
+
+As for now, I am waiting for a rack. I think I will make one myself or just buy one from junkyard. Thats all for now. 
+I haven't got time lately for doing abything with my homelab because I have been making projects for HackClub High Seas Event. Those projects take a lot of time so after it ends I will get back to my homelab.
+
 ## October of 2024
 
   I bought two servers. Their specs are below: </br>
