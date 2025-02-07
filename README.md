@@ -16,5 +16,5 @@
 
 
 ### Where you might want to look
-- [The list of all devices in my homelab](https://github.com/AndreansxTech/Homelab-2025/Inventory/devices.md)
-- [Rack diagram](https://github.com/AndreansxTech/Homelab-2025/Inventory/rack-diagram-placeholder)
+- [The list of all devices in my homelab](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md)
+- [Rack diagram](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder)
