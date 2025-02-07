@@ -1,6 +1,8 @@
 # Hi ! 👋 Happy to see you visiting my Homelab project
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/AndreansxTech/Homelab-2025?style=for-the-badge&logo=github)
+
 
 
 ## What is this about? 🧐
