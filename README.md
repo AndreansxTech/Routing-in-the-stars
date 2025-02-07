@@ -13,3 +13,8 @@
 
 ## The goal 📈
    I would love to work in network engineering in the future. I know that apart from the very important theoretical knowledge, the practical experience is the most important. That's why I picked up this project. Hopefully I will gain the useful knowledge and experience needed to land a job in my target field. A job in networking sure requires maintaining physical hardware. A homelab is a widely known way of learing to fix errors and learn from our own mistakes. 
+
+
+### Where you might want to look
+- [The list of all devices in my homelab](https://github.com/AndreansxTech/Homelab-2025/Inventory/devices.md)
+- [Rack diagram](https://github.com/AndreansxTech/Homelab-2025/Inventory/rack-diagram-placeholder)
