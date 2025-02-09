@@ -6,7 +6,7 @@
 
 
 ## What is this about? 🧐
-   This is a repository dedicated to documenting my journey with homelabing and general networking. I will upload the configuration files of my network hardware as well as servers configs and scripts if any will be made. 
+   This is a repository dedicated to documenting my journey with homelabing and general networking. I will upload the configuration files of my network hardware as well as servers configs and scripts if any will be made and everything in general ( as long as it is not something like a password of course )
 
 ## Start of the project
    I was interested in tech for kind of a long time. But never really did anything serious at my home apart from custom ROMing a couple of old samsung smartphones, until.. </br>
