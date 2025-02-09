@@ -20,3 +20,4 @@
 ### Where you might want to look
 - [The list of all devices in my homelab](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md)
 - [Rack diagram](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder)
+- [General network diagram](https://github.com/AndreansxTech/Homelab-2025/blob/2cfe1d98f65e918d5881162183230494412aefa0/docs/general-network-topology.png)
