@@ -11,6 +11,11 @@
 ❌ - NAS </br>
 ❌ - Full 10GbE </br>
 
+## Plans for now
+
+For now I would like to create a NAS server, Backup server for proxmox, TFTP server for my network hardware, Plex / Jellyfin Media Server and Minecraft server.
+Currently Im learning general theory about VLANs
+
 
 ## What is this about? 🧐
    This is a repository dedicated to documenting my journey with homelabing and general networking. I will upload the configuration files of my network hardware as well as servers configs and scripts if any will be made and everything in general ( as long as it is not something like a password of course )
