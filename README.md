@@ -2,7 +2,8 @@
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/AndreansxTech/Homelab-2025?style=for-the-badge&logo=github)
-
+![Static Badge](https://img.shields.io/badge/LAN_speed-1GbE-%237ef728?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Services_status-Down-%23f72847?style=for-the-badge)
 ## Milestones
 
 ✅ - First servers </br>
