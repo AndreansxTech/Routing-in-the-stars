@@ -1,4 +1,4 @@
-```
+```bash
 SSH@Rigel#write terminal
 Current configuration:
 !
@@ -14,14 +14,16 @@ stack unit 1
 !
 vlan 1 name DEFAULT-VLAN by port
 !
-
-vlan 10 by port
+vlan 10 name test10 by port
+ tagged ethe 1/1/4 
+ untagged ethe 1/1/3 
+ ip-subnet 10.0.10.0 255.255.255.0
+!
 !
 !
 !
 !
 !                                                                 
-!
 !
 !
 !
@@ -41,8 +43,10 @@ ip address 10.0.0.20 255.255.255.0
 ip dns server-address 10.0.0.1 1.1.1.1
 no ip dhcp-client enable
 ip default-gateway 10.0.0.1
-password-change any                                               
-snmp-server contact ************
+username root nopassword
+username skib nopassword
+password-change any
+snmp-server contact koliberekart@icloud.com                       
 web client 10.0.0.113 
 web access-group group
 web-management frame bottom
@@ -58,5 +62,4 @@ interface ethernet 1/1/1
 interface ethernet 1/1/2
  port-name Management1
 !
-end
 ```
