@@ -1,5 +1,10 @@
 ## This directory is dedicated to a weird situation with my Brocade FastIron LS648-STK switch.
 ### Nicknamed *"Rigel"*
+
+![Static Badge](https://img.shields.io/badge/Status-Unresolved-%23fc0335?style=for-the-badge)
+
+<!-- ![Static Badge](https://img.shields.io/badge/Status-resolved-%2303fc13?style=for-the-badge) --->
+
 ### How it started
 Lately, I wanted to do some inter-vlan routing on this switch since I found that it *is* capable of that. </br>
 I wanted to achieve that by first creating the vlans, assigning subnets for them and then enabling routing between vlans globally on this switch.
