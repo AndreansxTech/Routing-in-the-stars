@@ -1,9 +1,9 @@
 ## This directory is dedicated to a weird situation with my Brocade FastIron LS648-STK switch.
 ### Nicknamed *"Rigel"*
 
-![Static Badge](https://img.shields.io/badge/Status-Unresolved-%23fc0335?style=for-the-badge)
+<!--  ![Static Badge](https://img.shields.io/badge/Status-Unresolved-%23fc0335?style=for-the-badge) --->
 
-<!-- ![Static Badge](https://img.shields.io/badge/Status-resolved-%2303fc13?style=for-the-badge) --->
+![Static Badge](https://img.shields.io/badge/Status-resolved-%2303fc13?style=for-the-badge)
 
 ### How it started
 Lately, I wanted to do some inter-vlan routing on this switch since I found that it *is* capable of that. </br>
@@ -137,3 +137,6 @@ At the end of the binary file I saw FGSL07202a. That string of letters is differ
 ## 02.03.2025
 I may have found something.</br>
 ![alt text](errorcode8.png)
+</br>( more info coming here soon... )
+It is 10 PM as I am writing this and I can change the status of this to SOLVED !</br>
+I do not have time to write it right now but there is a ton of info about this and I would like to share it soon.</br>
