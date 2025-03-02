@@ -133,3 +133,7 @@ I copied the flash from the switch via TFTP to my laptop and opened it with HxD 
 
 ![screenshot](flash-screenshot.png) </br>
 At the end of the binary file I saw FGSL07202a. That string of letters is different from any that I saw earlier. It was either FLS or FGS, now it is FGSL. I have no idea for now why it is like that.
+
+## 02.03.2025
+I may have found something.</br>
+![alt text](errorcode8.png)
