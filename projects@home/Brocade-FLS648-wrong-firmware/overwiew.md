@@ -127,3 +127,9 @@ SSH@Rigel#
 ```
 Thats when I saw that the firmware is labeled as FGS07202a and *not as* **FLS07202a**.</br>
 This might mean that for some unknown reason, my switch has a firmware from the GS series and not from the correct LS series. It basically functions probably because those switches might be similar on hardware level. But this lack of correct firmware, makes me unable to use the L3 options.
+
+</br>
+I copied the flash from the switch via TFTP to my laptop and opened it with HxD to see if I could see any clue.
+
+![screenshot](flash-screenshot.png) </br>
+At the end of the binary file I saw FGSL07202a. That string of letters is different from any that I saw earlier. It was either FLS or FGS, now it is FGSL. I have no idea for now why it is like that.
