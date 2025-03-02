@@ -2,7 +2,9 @@
 ## *Brocade FastIron LS 648 STK* - Rigel
 
 ![Static Badge](https://img.shields.io/badge/broadcom-%23212121?style=for-the-badge&logo=broadcom&logoColor=cc092f&logoSize=auto)
-
+![Static Badge](https://img.shields.io/badge/Outdated-%23e8271a?style=for-the-badge)
+<!-- ![Static Badge](https://img.shields.io/badge/latest-%231a62e8?style=for-the-badge) -->
+![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=hardware%40home%2Fswitches%40homelab%2Frigel-switch%2Foverview.md&display_timestamp=author&style=for-the-badge)
 
 Current situation with this switch is very weird. It seems to have a firmware from another switch. FGS instead of FLS in the firmware name.
 

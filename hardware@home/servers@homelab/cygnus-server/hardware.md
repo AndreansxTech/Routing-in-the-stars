@@ -1,5 +1,7 @@
 # Proxmox main host - Cygnus
 
+![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=hardware%40home%2Fservers%40homelab%2Fcygnus-server%2Fhardware.md&display_timestamp=author&style=for-the-badge)
+
 ## Purpose and Overview
 
 *   **Purpose:** Virtualization server for VMs and LXCs
