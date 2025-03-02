@@ -1,6 +1,9 @@
 
 ## *Brocade FastIron LS 648 STK* - Rigel
 
+![Static Badge](https://img.shields.io/badge/broadcom-%23212121?style=for-the-badge&logo=broadcom&logoColor=cc092f&logoSize=auto)
+
+
 Current situation with this switch is very weird. It seems to have a firmware from another switch. FGS instead of FLS in the firmware name.
 
 256 MB DRAM
