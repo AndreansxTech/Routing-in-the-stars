@@ -11,6 +11,7 @@
 Lately, I wanted to do some inter-vlan routing on this switch since I found that it *is* capable of that. </br>
 I wanted to achieve that by first creating the vlans, assigning subnets for them and then enabling routing between vlans globally on this switch.
 Here is what I did:
+
 ```bash
 SSH@Rigel(config)#vlan 10 name VLAN10
 SSH@Rigel(config-vlan-10)#untagged eth 1/1/3 to 1/1/12 
@@ -20,8 +21,10 @@ Added tagged port(s) ethe 1/1/48 to port-vlan 10.
 SSH@Rigel(config-vlan-10)#ip-subnet 10.0.10.0/24
 SSH@Rigel(config-vlan-ip-subnet)#
 ```
+
 With that, I added ports 3 to 12 to the VLAN ID 10 and added what is typically a trunk port on the 48 port, and I assigned a subnet to this VLAN.
 Here is the VLAN 20 configuration:
+
 ```bash
 SSH@Rigel(config)#vlan 20 name PCs
 SSH@Rigel(config-vlan-20)#tagged eth 1/1/48
@@ -31,7 +34,9 @@ Added untagged port(s) ethe 1/1/13 to 1/1/24 to port-vlan 20.
 SSH@Rigel(config-vlan-20)#ip-subnet 10.0.20.0/24
 SSH@Rigel(config-vlan-ip-subnet)#
 ```
+
 This is the cut output of `write terminal` command: ( It was cut to only include the important parts )
+
 ```bash
 SSH@Rigel(config-vlan-ip-subnet)#write terminal
 Current configuration:
@@ -58,7 +63,9 @@ vlan 20 name PCs by port
  untagged ethe 1/1/13 to 1/1/24 
  ip-subnet 10.0.20.0 255.255.255.0
 ```
+
 After that, I wanted to try inter-vlan routing. So I tried to use the `ip routing` or `ip route` command in the global config level:
+
 ```bash
 SSH@Rigel(config)#ip routing
 Invalid input -> routing
@@ -68,7 +75,9 @@ Invalid input -> route
 Type ? for a list
 SSH@Rigel(config)#
 ```
+
 This command `routing` or `route` seems to not even exist:
+
 ```bash
 SSH@Rigel(config)#ip ?
   access-list                   Configure named access list
@@ -98,8 +107,10 @@ SSH@Rigel(config)#ip ?
   ttl                           Set IP TTL value
 SSH@Rigel(config)#ip  
 ```
+
 After some searching, I found that I should be in fact, able to use this command. This switch is L3 after all.
 I checked the system:
+
 ```bash
 SSH@Rigel#show ver
   Copyright (c) 1996-2010 Brocade Communications Systems, Inc.
@@ -127,6 +138,7 @@ The system : started=cold start
 
 SSH@Rigel#
 ```
+
 Thats when I saw that the firmware is labeled as FGS07202a and *not as* **FLS07202a**.</br>
 This might mean that for some unknown reason, my switch has a firmware from the GS series and not from the correct LS series. It basically functions probably because those switches might be similar on hardware level. But this lack of correct firmware, makes me unable to use the L3 options.
 
