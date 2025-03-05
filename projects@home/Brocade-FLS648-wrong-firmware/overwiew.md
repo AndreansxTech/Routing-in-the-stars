@@ -154,7 +154,9 @@ I may have found something.</br>
 ![alt text](errorcode8.png)
 </br>
 
-I did a lot of searching and in result I have found that the firmware name is in fact correct. Apparently the firmware for LS series is named like FGS, FGLS and FGSR. There is no FLS firmware. The downloads for the firmware are no longer available because first they were only for premium users and additionally the company that made them doesn’t exist anymore. I have found a single working link on some very old post on Reddit. It was uploaded by Foshdeesha. The link was a mirror download for a folder with the firmware’s for all FastIron series. 
+I did a lot of searching and in result I have found that the firmware name is in fact correct. Apparently the firmware for LS series is named like FGS, FGLS and FGSR. There is no FLS firmware. The downloads for the firmware are no longer available because first they were only for premium users and additionally the company that made them doesn’t exist anymore. I have found a single working link on some very old post on Reddit. It was uploaded by Foshdeesha. The link was a mirror download for a folder with the firmware’s for all FastIron series. </br>
+
+I will provide the folder here in this repository in case the only available mirror link goes down. 
 
 </br>( more info coming here soon... )
 It is 10 PM as I am writing this and I can change the status of this to SOLVED !</br>
