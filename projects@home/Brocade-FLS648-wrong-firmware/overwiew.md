@@ -1,4 +1,5 @@
-## This directory is dedicated to a weird situation with my Brocade FastIron LS648-STK switch.
+## This is a overview of issue with my *Brocade FastIron LS648-STK* switch
+
 ### Nicknamed *"Rigel"*
 
 <!--  ![Static Badge](https://img.shields.io/badge/Status-Unresolved-%23fc0335?style=for-the-badge) --->
