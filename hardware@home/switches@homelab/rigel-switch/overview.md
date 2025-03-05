@@ -48,7 +48,7 @@ Type ? for a list
 SSH@Rigel(config-vlan-10)#
 ```
 
-In this folder, for archive purposes, is a binary file of the flash image from this switch, labeled as *FGS07202a.bin*. ( Yes, FGS not FLS ) Read the <a href="/projects@home/Brocade-FLS648-wrong-firmware/overwiew.md">Brocade-FLS648-wrong-firmware</a> article.
+In this folder, for archive purposes, is a binary file of the flash image from this switch, labeled as *FGS07202a.bin*. Read the <a href="/projects@home/Brocade-FLS648-wrong-firmware/overwiew.md">Brocade-FLS648-wrong-firmware</a> article.
 
 ```bash
 SSH@Rigel#copy flash tftp 10.0.0.113 FGS07202a.bin secondary 
