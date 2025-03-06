@@ -9,11 +9,25 @@
 
 ## Milestones
 
-✅ - First servers </br>
-❌ - Full setup with 1GbE </br>
-[ .. more to come here .. ] </br>
-❌ - NAS </br>
-❌ - Full 10GbE </br>
+This is a list of the milestones in my Homelab project. The status is updated regularly.
+
+- [x] **Basic Infrastructure (✅)**
+    - [x] Purchase of first servers (Dell PowerEdge R610, R710)
+    - [x] Installation and configuration of Proxmox Virtual Environment on R710
+    - [ ] Basic network configuration (VLANs, routing) - *In progress*
+- [ ] **Gigabit Ethernet Network (❌)**
+    - [ ] Full configuration of the 1GbE network
+    - [ ] Testing and optimization of network performance
+- [ ] **Storage and Backup (❌)**
+    - [ ] Configuration of a NAS server
+    - [ ] Implementation of a backup strategy for Proxmox
+- [ ] **Multimedia (❌)**
+    - [ ] Launching a Plex/Jellyfin server
+- [ ] **10 Gigabit Ethernet Network (❌)**
+    - [ ] Purchase and configuration of 10GbE hardware
+    - [ ] Migration of key services to the 10GbE network
+
+[ .. more to come here .. ]
 
 ## Plans for now
 
