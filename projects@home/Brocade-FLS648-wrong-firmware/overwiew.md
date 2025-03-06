@@ -166,7 +166,20 @@ I do not have time to write it right now but there is a ton of info about this a
 
 # Conclusion 
 
-Turns out, the firmware wasn’t incorrect. It was named correctly and *it was* made for this switch. However, there were three versions of it. FGS, FGLS and FGSR. Each of them could have an „a” or a „r” letter at the end. The ones with „a” were compiled in 2011 and the ones with „r” in 2015.</br>
+Turns out, **the firmware wasn’t incorrect**. It was named correctly and *it was* made for this switch. However, there were three versions of it. FGS, FGLS and FGSR. Each of them could have an „a” or a „r” letter at the end. The ones with „a” were compiled in 2011 and the ones with „r” in 2015.</br>
 The „FGS” version is only L2. That was the reason why I wasn’t able to use commands such as `ip route`. This firmware didn’t even have that command implemented.
 </br>
-Also, what is common when buying a datacenter or enterprise-grade network hardware, you need a license to use L3 features. Of course they 99% of the time, are impossible to obtain by regular people. And even if in this particular scenario, a license for L3 was possible to get, the company that could issue a license, doesn’t even exist anymore. 
+Also, what is common when buying a datacenter or enterprise-grade network hardware, you need a license to use L3 features. 
+</br>
+Of course they 99% of the time, are impossible to obtain by regular people. And even if in this particular scenario, a license for L3 was possible to get, the company that could issue a license, doesn’t even exist anymore. 
+</br>
+I think I will try to write my own tutorial for the sake of it. 
+Maybe someone starting with a lab will buy that switch, because they are dirt cheap and are a great way to get along with CLI instead of typical GUI. 
+</br>
+The firmwares were like following:
+
+- FGS07202a.bin - Base L2 functionality 
+- FGLS07202a.bin - Base L3 functionality 
+- FGSR07202a.bin - Edge L3 functionality
+
+ 
