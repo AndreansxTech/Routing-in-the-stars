@@ -43,8 +43,17 @@ Currently Im learning general theory about VLANs
    Around the summer vacations I saw how big oppurtunities I had for creating a lab in my home. I have a big room and I have access to fast internet. Around the middle of October of 2024 I did my first step to creating a homelab. I bought two Dell PowerEdge servers: a R610 and a R710. </br>
    I learned some simple things about Proxmox Virtual Enviroment and realized how much potential it had. So I installed it on my R710. I created some simple VMs such as a Win11 or Ubuntu Server for a Minecraft Server.
 
-## The goal 📈
-   I would love to work in network engineering in the future. I know that apart from the very important theoretical knowledge, the practical experience is the most important. That's why I picked up this project. Hopefully I will gain the useful knowledge and experience needed to land a job in my target field. A job in networking sure requires maintaining physical hardware. A homelab is a widely known way of learing to fix errors and learn from our own mistakes. 
+## The Goal 📈
+
+My objective is to develop practical skills in network engineering to pursue a career in this field. This homelab provides a platform to gain hands-on experience in areas such as:
+
+*   Network design and implementation
+*   Routing and switching protocols
+*   Network security
+*   Server administration
+*   Troubleshooting and problem-solving
+
+By actively engaging in these activities, I aim to acquire the knowledge and experience needed to excel in a network engineering role.
 
 
 ### Where you might want to look
