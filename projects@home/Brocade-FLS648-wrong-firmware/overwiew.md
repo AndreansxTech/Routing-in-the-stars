@@ -162,6 +162,11 @@ I will provide the folder here in this repository in case the only available mir
 It is 10 PM as I am writing this and I can change the status of this to SOLVED !</br>
 I do not have time to write it right now but there is a ton of info about this and I would like to share it soon.</br>
 
-## 04.03.2025
+## 06.03.2025
 
 # Conclusion 
+
+Turns out, the firmware wasn’t incorrect. It was named correctly and *it was* made for this switch. However, there were three versions of it. FGS, FGLS and FGSR. Each of them could have an „a” or a „r” letter at the end. The ones with „a” were compiled in 2011 and the ones with „r” in 2015.</br>
+The „FGS” version is only L2. That was the reason why I wasn’t able to use commands such as `ip route`. This firmware didn’t even have that command implemented.
+</br>
+Also, what is common when buying a datacenter or enterprise-grade network hardware, you need a license to use L3 features. Of course they 99% of the time, are impossible to obtain by regular people. And even if in this particular scenario, a license for L3 was possible to get, the company that could issue a license, doesn’t even exist anymore. 
