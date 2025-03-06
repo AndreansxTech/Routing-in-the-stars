@@ -8,6 +8,10 @@
 ![Static Badge](https://img.shields.io/badge/latest-%231a62e8?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=projects%40home%2FBrocade-FLS648-wrong-firmware%2Foverwiew.md&display_timestamp=author&style=for-the-badge)
 
+
+### Please remember that most of what is here is written in somewhat real-time, which means that once I placed, for example, a command output here, I don’t really get back to it. I’m trying to make everything as organized as possible but please read everything from beginning to end if something is not clear.
+
+
 ### How it started
 Lately, I wanted to do some inter-vlan routing on this switch since I found that it *is* capable of that. </br>
 I wanted to achieve that by first creating the vlans, assigning subnets for them and then enabling routing between vlans globally on this switch.
