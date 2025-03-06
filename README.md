@@ -62,8 +62,20 @@ My objective is to develop practical skills in network engineering to pursue a c
 By actively engaging in these activities, I aim to acquire the knowledge and experience needed to excel in a network engineering role.
 
 
-### Where you might want to look
-- [The journal](https://github.com/AndreansxTech/My-homelab/blob/main/docs/journal.md)
-- [The list of all devices in my homelab](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md)
-- [Rack diagram](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder)
-- [General network diagram](https://github.com/AndreansxTech/My-homelab/blob/main/docs/general-network-topology.png)
+<!--
+### Navigate the Homelab: Essential Resources
+
+*   [<img src="https://img.shields.io/badge/Homelab%20Journal-Read%20Now-blue?style=for-the-badge" alt="Homelab Journal">](https://github.com/AndreansxTech/My-homelab/blob/main/docs/journal.md) - Daily progress and insights.
+*   [<img src="https://img.shields.io/badge/Device%20Inventory-View%20List-green" alt="Device Inventory">](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md) - A complete hardware list.
+*   [<img src="https://img.shields.io/badge/Rack%20Diagram-See%20Visual-orange" alt="Rack Diagram">](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder) - *Placeholder - Coming Soon!*
+*   [<img src="https://img.shields.io/badge/Network%20Topology-Explore%20Arch-purple" alt="Network Topology Diagram">](https://github.com/AndreansxTech/My-homelab/blob/main/docs/general-network-topology.png) - Network Architecture Overview-->
+
+
+
+### Explore the Homelab: Key Resources 🔍
+
+*   **Homelab Journal 📝:** Follow my daily progress, challenges, and discoveries in the [Homelab Journal](https://github.com/AndreansxTech/My-homelab/blob/main/docs/journal.md).
+*   **Hardware Inventory 🧰:**  A detailed list of all devices in my homelab, including models and specifications: [Device Inventory](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md).
+*   **Rack Diagram 🏢:** A visual representation of my server rack setup: [Rack Diagram](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder). *Note: This is currently a placeholder.*
+*   **Network Topology 🌐:**  An overview of my network architecture and connections: [Network Diagram](https://github.com/AndreansxTech/My-homelab/blob/main/docs/general-network-topology.png).
+ 
