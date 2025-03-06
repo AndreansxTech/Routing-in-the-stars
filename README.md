@@ -39,7 +39,7 @@ Currently Im learning general theory about VLANs
 
 This repository is a hands-on resource documenting my experiences with building and maintaining a homelab network. I’ll be sharing practical configurations, scripts, and insights gained from real-world troubleshooting, with a focus on preserving knowledge about older or less common hardware.
 
-A addition goal is to contribute to the longevity of network knowledge. This includes documenting solutions for obscure devices where information is scarce, and even archiving firmware and relevant resources to prevent them from disappearing from the internet. For example look at the <a href=”https://github.com/AndreansxTech/My-homelab/blob/main/projects%40home/Brocade-FLS648-wrong-firmware/overwiew.md”>Brocade FLS648 issue</a>
+A addition goal is to contribute to the longevity of network knowledge. This includes documenting solutions for obscure devices where information is scarce, and even archiving firmware and relevant resources to prevent them from disappearing from the internet. For example look at the <a href=”https://github.com/AndreansxTech/My-homelab/blob/main/projects%40home/Brocade-FLS648-firmware-issue/overwiew.md”>Brocade FLS648 issue</a>
 
 Expect to find configuration files for network devices, server setups, files, and automation scripts ( with sensitive information redacted, naturally ). Whether you’re a seasoned network engineer or just starting out, I hope this repository provides valuable inspiration and guidance, and contributes to the collective knowledge of the networking community.
 
