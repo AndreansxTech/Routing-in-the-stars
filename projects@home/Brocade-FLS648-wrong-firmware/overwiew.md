@@ -179,7 +179,8 @@ Also, what is common when buying a datacenter or enterprise-grade network hardwa
 Of course they 99% of the time, are impossible to obtain by regular people. And even if in this particular scenario, a license for L3 was possible to get, the company that could issue a license, doesn’t even exist anymore. 
 </br>
 I think I will try to write my own tutorial for the sake of it. 
-Maybe someone starting with a lab will buy that switch, because they are dirt cheap and are a great way to get along with CLI instead of typical GUI. 
+Maybe someone starting with a lab will buy that switch, because they are dirt cheap and are a great way to get along with CLI instead of typical GUI. </br>
+And they seem like they never ever existed on the internet. There is only a brochure, maybe like 5 posts about them and a 90 page document about the FastIron LS / LS-STK series from Brocade, year 2011. Otherwise, a community about this switch is extinct I guess. I searched a lot a found absolutely no info whatsoever about the 2015 release of the firmware.
 </br>
 The firmwares were like following:
 
@@ -187,4 +188,3 @@ The firmwares were like following:
 - FGLS07202a.bin - Base L3 functionality 
 - FGSR07202a.bin - Edge L3 functionality
 
- 
