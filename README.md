@@ -43,10 +43,11 @@ A addition goal is to contribute to the longevity of network knowledge. This inc
 
 Expect to find configuration files for network devices, server setups, files, and automation scripts ( with sensitive information redacted, naturally ). Whether you’re a seasoned network engineer or just starting out, I hope this repository provides valuable inspiration and guidance, and contributes to the collective knowledge of the networking community.
 
-## Start of the project
-   I was interested in tech for kind of a long time. But never really did anything serious at my home apart from custom ROMing a couple of old samsung smartphones, until.. </br>
-   Around the summer vacations I saw how big oppurtunities I had for creating a lab in my home. I have a big room and I have access to fast internet. Around the middle of October of 2024 I did my first step to creating a homelab. I bought two Dell PowerEdge servers: a R610 and a R710. </br>
-   I learned some simple things about Proxmox Virtual Enviroment and realized how much potential it had. So I installed it on my R710. I created some simple VMs such as a Win11 or Ubuntu Server for a Minecraft Server.
+## Project Ignition: Laying the Foundation
+
+While my fascination with technology dates back many years, my engagement was largely theoretical, limited to activities like custom ROM flashing. The turning point came during a summer break, when I realized the potential for building a dedicated learning environment within my home. A combination of a spacious room and readily available high-speed internet created the ideal conditions for a homelab.
+
+The project officially launched in mid-October 2024 with the acquisition of two Dell PowerEdge servers: an R610 and an R710. Intrigued by the capabilities of Proxmox Virtual Environment, I quickly installed it on the R710 and began experimenting with virtual machines, deploying instances such as Windows 11 and a dedicated Ubuntu Server for hosting a Minecraft server. These initial steps laid the foundation for a more comprehensive exploration of network engineering principles.
 
 ## The Goal 📈
 
