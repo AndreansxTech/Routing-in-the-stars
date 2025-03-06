@@ -35,8 +35,13 @@ For now I would like to create a NAS server, Backup server for proxmox, TFTP ser
 Currently Im learning general theory about VLANs
 
 
-## What is this about? 🧐
-   This is a repository dedicated to documenting my journey with homelabing and general networking. I will upload the configuration files of my network hardware as well as servers configs and scripts if any will be made and everything in general ( as long as it is not something like a password of course )
+## Practical Networking: My Homelab Documentation 🧐
+
+This repository is a hands-on resource documenting my experiences with building and maintaining a homelab network. I’ll be sharing practical configurations, scripts, and insights gained from real-world troubleshooting, with a focus on preserving knowledge about older or less common hardware.
+
+A addition goal is to contribute to the longevity of network knowledge. This includes documenting solutions for obscure devices where information is scarce, and even archiving firmware and relevant resources to prevent them from disappearing from the internet. For example look at the <a href=”https://github.com/AndreansxTech/My-homelab/blob/main/projects%40home/Brocade-FLS648-wrong-firmware/overwiew.md”>Brocade FLS648 issue</a>
+
+Expect to find configuration files for network devices, server setups, files, and automation scripts ( with sensitive information redacted, naturally ). Whether you’re a seasoned network engineer or just starting out, I hope this repository provides valuable inspiration and guidance, and contributes to the collective knowledge of the networking community.
 
 ## Start of the project
    I was interested in tech for kind of a long time. But never really did anything serious at my home apart from custom ROMing a couple of old samsung smartphones, until.. </br>
