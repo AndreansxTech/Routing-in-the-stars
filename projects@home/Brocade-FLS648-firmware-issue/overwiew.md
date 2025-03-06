@@ -156,10 +156,20 @@ So now it got really weird. The firmware is named FGS which ( read *Conclusion* 
 
 ## 02.03.2025
 I may have found something.</br>
-![alt text](errorcode8.png)
-</br>
 
-I did a lot of searching and in result I have found that the firmware name is in fact correct. Apparently the firmware for LS series is named like FGS, FGLS and FGSR. There is no FLS firmware. The downloads for the firmware are no longer available because first they were only for premium users and additionally the company that made them doesn’t exist anymore. I have found a single working link on some very old post on Reddit. It was uploaded by Foshdeesha. The link was a mirror download for a folder with the firmware’s for all FastIron series. </br>
+I did a lot of searching and in result I have found that the firmware name is in fact correct. Apparently the firmware for LS series is named like FGS, FGLS and FGSR. There is no FLS firmware. </br>
+The downloads for the firmware are no longer available because first they were only for premium users and additionally the company that made them doesn’t exist anymore. I have found a single working link on some very old post on Reddit. It was uploaded by Foshdeesha. The link was a mirror download for a folder with the firmware’s for all FastIron series. </br>
+This screenshot is something that finally gave me some kind of a clue. Well, not only some clue but this really confirmed that the switch *is aware that it can do L3*.</br>
+![alt text](errorcode8.png)</br>
+Here is what actually happened and what this meant. After I downloaded the folder with the firmwares and located where were the LS firmwares, I moved it to my TFTP directory and tried to load it into flash using `copy` command:
+
+```bash
+Rigel#copy tftp flash 10.0.0.113 FGSR07202r.bin primary
+Rigel#You cannot load Edge L3 code on this hardware. Please upgrade the license.
+File type Check failed
+TFTP to Flash error - code 8
+```
+
 
 I will provide the folder here in this repository in case the only available mirror link goes down. 
 
