@@ -1,0 +1,1 @@
+## I am going to write a curated tutorial, on how to step by step make L3 functions work on a Brocade FLS648 switch, based on what I found on different places on the internet and what I learned myself
