@@ -10,4 +10,4 @@
    
    I guess I can say it was a success but not 100% ( for now ). However, it surely wasn't easy. It took a lot of lurking and searching around to get some info.</br>
    
-   This switch is so old as hell that there is barely someone who heard about it, even less, messed around with it's L3 functionality. 
+   This switch is so old as hell that there is barely someone who heard about it, and even less people who messed around with it's L3 functionality. 
