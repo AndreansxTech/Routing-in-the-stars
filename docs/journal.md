@@ -3,6 +3,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
 
+## 09.03.2025
+
+Im currently learning about L3 and I took a easy practise Network+ test to swe how much I learned. I will also try to start learning Python more seriously as I found that it is great for automation in networking
+
 
 ## 08.03.2025
 
