@@ -159,7 +159,7 @@ However, of course we saw that the L3 commands *do not work at all*.
 I may have found something.</br>
 
 I did a lot of searching and in result I have found that the firmware name is in fact correct. Apparently the firmware for LS series is named like FGS, FGLS and FGSR. There is no FLS firmware. </br>
-The downloads for the firmware are no longer available because first they were only for premium users and additionally the company that made them doesn’t exist anymore. I have found a single working link on some very old post on Reddit. It was uploaded by Foshdeesha. The link was a mirror download for a folder with the firmware’s for the whole FastIron series. </br>
+The downloads for the firmware are no longer available because first they were only for premium users and additionally the company that made them doesn’t exist anymore. I have found a single working link on some very old post on Reddit. It was uploaded by Fohdeesha. The link was a mirror download for a folder with the firmware’s for the whole FastIron series. </br>
 This screenshot is something that finally gave me some kind of a clue. Well, not only some clue but this really confirmed that the switch *is aware that it can do L3*. Or more precisely, that there are more versions of the firmware for this switch.</br>
 ![alt text](errorcode8.png)</br>
 Here is what actually happened and what this meant. After I downloaded the folder with the firmwares and located where were the LS firmwares, I moved it to my TFTP directory and tried to load it into flash using `copy` command:
@@ -170,6 +170,9 @@ Rigel#You cannot load Edge L3 code on this hardware. Please upgrade the license.
 File Type Check failed
 TFTP to Flash error - code 8
 ```
+
+Looks like the FGSR version of this firmware is not possible to load without a suitable license. Of course, I cannot do that because of obvious reason. However I searched some mode and by typing "FLS648" on the search bar on the <a href="https://fohdeesha.com/docs/">Fohdeesha docs</a> website, I found some information that specified how to manually trick the switch into thinking that it has a license enabled.</br>
+
 
 
 I will provide the folder here in this repository in case the only available mirror link goes down. 
