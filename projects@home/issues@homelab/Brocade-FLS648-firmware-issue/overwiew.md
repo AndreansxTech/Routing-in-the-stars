@@ -173,7 +173,7 @@ TFTP to Flash error - code 8
 
 Looks like the FGSR version of this firmware is not possible to load without a suitable license. Of course, I cannot do that because of obvious reason. However I searched some mode and by typing "FLS648" on the search bar on the <a href="https://fohdeesha.com/docs/">Fohdeesha docs</a> website, I found some information that specified how to manually trick the switch into thinking that it has a license enabled.</br>
 
-
+This part of the process consisted of manually byte-by-byte inserting a "magic string" into the flash. The command allowing us to do so, is `i2cWriteByte`. However, this command does not work in the typical level of the terminal. So I had to use a serial connection and the after logging into privelaged mode I had to click Ctrl+Y and Ctrl+M. After doing so, the command prompt turned from `FLS648` into `FLS-Monitor`. This is where I could use the command for manually writing data into the switch.
 
 I will provide the folder here in this repository in case the only available mirror link goes down. 
 
