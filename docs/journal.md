@@ -5,7 +5,15 @@
 
 ## 09.03.2025
 
-Im currently learning about L3 and I took a easy practise Network+ test to swe how much I learned. I will also try to start learning Python more seriously as I found that it is great for automation in networking
+Im currently learning about L3 and I took a easy practise Network+ test to swe how much I learned. I will also try to start learning Python more seriously as I found that it is great for automation in networking. </br>
+
+The libraries and tools that I should be familiar with are:
+
+- Netmiko
+- NAPALM
+- Ansible
+
+So I will start learning something about then.</br> Of course every piece of code, I will write, I will also upload to this repo.
 
 
 ## 08.03.2025
