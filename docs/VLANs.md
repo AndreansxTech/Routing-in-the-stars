@@ -19,9 +19,12 @@ Here's a detailed description of each planned VLAN:
 *   **VLAN 22 - Containers (CTs)**
     *   **IP Range:** `10.0.22.0/24`
     *   **Purpose:** Containers (CTs) running on the servers.
+*   **VLAN 23 - Remote management interfaces (iDRAC)**
+    *   **IP Range:** `10.0.23.0/24`
+    *   **Purpose:** Remote access interfaces for backup communication with servers.
 *   **VLAN 30 - Surveillance Cameras**
     *   **IP Range:** `10.0.30.0/24`
-    *   **Purpose:** Surveillance cameras.
+    *   **Purpose:** PoE powered surveillance cameras for home security.
 *   **VLAN 40 - Guest Wi-Fi**
     *   **IP Range:** `10.0.40.0/24`
     *   **Purpose:** Wireless network for guests with restricted access to network resources.
