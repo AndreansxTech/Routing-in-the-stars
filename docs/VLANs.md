@@ -28,9 +28,11 @@ Here's a detailed description of each planned VLAN:
 *   **VLAN 40 - Guest Wi-Fi**
     *   **IP Range:** `10.0.40.0/24`
     *   **Purpose:** Wireless network for guests with restricted access to network resources.
+    *   **DHCP IP Pool:** `10.0.40.100 - 10.0.40.200`
 *   **VLAN 41 - Normal Wi-Fi**
     *   **IP Range:** `10.0.41.0/24`
     *   **Purpose:** Wireless network for my whole family at home.
+    *   **DHCP IP Pool:** `10.0.41.100 - 10.0.41.200`
 *   **VLAN 99 - Management Network**
     *   **IP Range:** `10.0.99.0/24`
     *   **Purpose:** Network devices (switches, routers, access points) and my laptop (ThinkPad) requiring separation from the rest of the network. Inter-VLAN routing between this VLAN and other VLANs will be blocked.
@@ -45,9 +47,21 @@ Inter-VLAN routing will be handled by a combination of:
 
 The specific routing configuration (which VLANs are routed by which device) will be determined and documented separately.
 
+
+**Security Considerations:**
+
+*   **Firewall Policies:** Inter-VLAN firewall policies will be implemented to control traffic flow.  A connectivity matrix will be documented separately to define allowed communication paths.  Initial policy will be deny-by-default, with exceptions explicitly allowed.
+*   **Future Considerations:**  Evaluation and potential implementation of Intrusion Detection/Prevention System (IDS/IPS) to monitor critical VLANs.
+
+**Availability and Redundancy:**
+
+*   **Link Aggregation:** Link aggregation (LAG/LACP) will be used where possible to increase bandwidth and provide link redundancy.  Specific LAG configurations will be documented separately.
+
+
 **Currently to do:**
 
 *   Configure the switch/router to support these VLANs.
 *   Assign the appropriate ports to each VLAN.
 *   Configure VLAN interfaces on the router(s) for inter-VLAN routing (if desired, excluding VLAN 99).
+*   Configure DHCP on each VLAN to automatically assign IP addresses, using the specified IP Pools for Wi-Fi networks. 
 *   Configure DHCP on each VLAN to automatically assign IP addresses.
