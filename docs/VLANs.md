@@ -1,13 +1,41 @@
 ## VLANs
 
-Okay so I would like to segment my network in the following way:
-- VLAN ID is relevant to the x in this LAN IP address: 10.0.x.0
+The goal is to segment my home network using VLANs based on the third octet of the LAN IP address: `10.0.x.0/24`, where `x` corresponds to the VLAN ID. The planned segmentation is as follows:
 
+*   **VLAN Naming Convention:** The VLAN ID corresponds to the third octet of the IP address in the `10.0.x.0/24` network.
+*   **Address Range:** Each VLAN will use a subnet mask of `/24`.
 
-- VLAN 10 - PCs, laptops, game consoles 
-- VLAN 20 - Servers
-- VLAN 30 - VMs
-- VLAN 35 - CTs
-- VLAN 40 - Surveilance cameras
-- VLAN 50 - Probably Wi-Fi for guests
-- VLAN 99 - All network devices as well as my ThinkPad because I do not want to do Inter-vlan routing between this VLAN and any other
+Here's a detailed description of each planned VLAN:
+
+*   **VLAN 10 - PCs, Laptops, and Game Consoles**
+    *   **IP Range:** `10.0.10.0/24`
+    *   **Purpose:** User devices such as desktops, laptops, and gaming consoles.
+*   **VLAN 20 - Servers**
+    *   **IP Range:** `10.0.20.0/24`
+    *   **Purpose:** Servers running within the homelab environment.
+*   **VLAN 21 - Virtual Machines (VMs)**
+    *   **IP Range:** `10.0.21.0/24`
+    *   **Purpose:** Virtual Machines (VMs) running on the servers.
+*   **VLAN 22 - Containers (CTs)**
+    *   **IP Range:** `10.0.22.0/24`
+    *   **Purpose:** Containers (CTs) running on the servers.
+*   **VLAN 30 - Surveillance Cameras**
+    *   **IP Range:** `10.0.30.0/24`
+    *   **Purpose:** Surveillance cameras.
+*   **VLAN 40 - Guest Wi-Fi**
+    *   **IP Range:** `10.0.40.0/24`
+    *   **Purpose:** Wireless network for guests with restricted access to network resources.
+*   **VLAN 41 - Normal Wi-Fi**
+    *   **IP Range:** `10.0.41.0/24`
+    *   **Purpose:** Wireless network for my whole family at home.
+*   **VLAN 99 - Management Network**
+    *   **IP Range:** `10.0.99.0/24`
+    *   **Purpose:** Network devices (switches, routers, access points) and my laptop (ThinkPad) requiring separation from the rest of the network. Inter-VLAN routing between this VLAN and other VLANs will be blocked.
+    *   **Rationale:** Isolation of network management devices to enhance security.
+
+**Currently to do:**
+
+*   Configure the switch/router to support these VLANs.
+*   Assign the appropriate ports to each VLAN.
+*   Configure VLAN interfaces on the router for inter-VLAN routing (if desired, excluding VLAN 99).
+*   Configure DHCP on each VLAN to automatically assign IP addresses.
