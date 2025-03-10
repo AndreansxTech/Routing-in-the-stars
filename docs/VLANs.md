@@ -33,9 +33,18 @@ Here's a detailed description of each planned VLAN:
     *   **Purpose:** Network devices (switches, routers, access points) and my laptop (ThinkPad) requiring separation from the rest of the network. Inter-VLAN routing between this VLAN and other VLANs will be blocked.
     *   **Rationale:** Isolation of network management devices to enhance security.
 
+**Routing:**
+
+Inter-VLAN routing will be handled by a combination of:
+
+*   **MikroTik CCR2004-1G-12S+2XS**
+*   **Brocade FastIron LS648**
+
+The specific routing configuration (which VLANs are routed by which device) will be determined and documented separately.
+
 **Currently to do:**
 
 *   Configure the switch/router to support these VLANs.
 *   Assign the appropriate ports to each VLAN.
-*   Configure VLAN interfaces on the router for inter-VLAN routing (if desired, excluding VLAN 99).
+*   Configure VLAN interfaces on the router(s) for inter-VLAN routing (if desired, excluding VLAN 99).
 *   Configure DHCP on each VLAN to automatically assign IP addresses.
