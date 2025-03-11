@@ -3,6 +3,11 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
 
+## 11.03.2025
+
+Finally my package with a Xeon X5670 arrived. Now I have two identical CPUs for my R710. Those will increase the threads number to 24 and also they have a higher clock speed
+
+
 ## 10.03.2025
 
 I wrote a better VLANs description. You can check it out <a href="https://github.com/AndreansxTech/My-homelab/blob/eaf16325591678c4caee6029cdcf21f62f59324a/docs/VLANs.md">here</a>
