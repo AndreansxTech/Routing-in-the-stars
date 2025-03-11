@@ -179,7 +179,7 @@ Below are the commands I had to input. They were used to manually write the **ma
 
 </br>
 
-```shell
+```js
 FLS-Monitor>i2cWriteByte 40 0 fe
 i2c write to address 0x40 offset 0x0 value Oxfe --- PASS
 FLS-Monitor>i2cWriteByte 40 l ed
