@@ -183,17 +183,17 @@ i2c write to address 0x40 offset 0x0 value Oxfe --- PASS
 FLS-Monitor>i2cWriteByte 40 l ed
 i2c write to address 0x40 offset Oxl value Oxed --- PASS
 FLS-Monitor>i2cWriteByte 40 2 fa
-12c write to address 0x40 offset 0x2 value Oxta ---
+12c write to address 0x40 offset 0x2 value Oxfa --- PASS
 FLS-Monitor>i2cWriteByte 40 3 ce
-i2c write to address 0x40 offset 0x3 value 0xce ---
+i2c write to address 0x40 offset 0x3 value 0xce --- PASS
 FLS-Monitor>i2cWriteByte 40 4 1
-i2c write to address 0x40 offset 0x4 value 0xl --
+i2c write to address 0x40 offset 0x4 value 0xl --- PASS
 FLS-Monitor>12cWriteByte 40 5 0
-12c write to address 0x40 offset 0x5 value 0x0 ---
+12c write to address 0x40 offset 0x5 value 0x0 --- PASS
 FLS-Monitor>i2cWriteByte 40 6 1
-12c write to address 0x40 offset 0x6 value 0x1 ---
-FLS-Monitor>12cWriteByte 40 7 0
-12c write to address 0x40 offset 0x7 value 0x0 ---
+12c write to address 0x40 offset 0x6 value 0x1 --- PASS
+FLS-Monitor>i2cWriteByte 40 7 0
+12c write to address 0x40 offset 0x7 value 0x0 --- PASS
 FLS-Monitor>
 
 ```
