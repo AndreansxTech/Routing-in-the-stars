@@ -184,7 +184,9 @@ I also read that it was in fact possible to buy that EEPROM chip on your own alo
 
 </br>
 **( I will put a photo of the mobo here )**
+
 ![mobo](/projects@home/issues@homelab/Brocade-FLS648-firmware-issue/FLS648-mobo.jpeg)
+
 ```bash
 
 FLS-Monitor>i2cWriteByte 40 0 fe
