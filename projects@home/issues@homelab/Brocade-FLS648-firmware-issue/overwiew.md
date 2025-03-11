@@ -177,18 +177,9 @@ This part of the process consisted of manually byte-by-byte inserting a "magic s
 
 Below are the commands I had to input. They were used to manually write the **magic string** which tells the switch that it has an active L3 license *( it doesn't )*.</br>
 
-This is possible to do, because old Brocade switches *( like the FastIron series )*, had hardware licensing mechanism. There is a EEPROM chip in the main board inside the switch ( technically two of them but only one is removable ). The removable one stores the magic string and tells the switch whether the license is active or not. Nowadays of course, switches have software licensing. What I did here is not possible in those newer switches.
 </br>
 
-I also read that it was in fact possible to buy that EEPROM chip on your own along with a programmer. Sadly, the only page that offered those, **is long gone**. Maybe it's still possible to get those specific chips, but I hardly think that has any sense, especially now, in 2025.
-
-</br>
-**( I will put a photo of the mobo here )**
-
-![mobo](/projects@home/issues@homelab/Brocade-FLS648-firmware-issue/FLS648-mobo.jpeg)
-
-```bash
-
+```shell
 FLS-Monitor>i2cWriteByte 40 0 fe
 i2c write to address 0x40 offset 0x0 value Oxfe --- PASS
 FLS-Monitor>i2cWriteByte 40 l ed
@@ -208,6 +199,19 @@ i2c write to address 0x40 offset 0x7 value 0x0 --- PASS
 FLS-Monitor>
 
 ```
+
+This is possible to do, because old Brocade switches *( like the FastIron series )*, had hardware licensing mechanism. There is a EEPROM chip in the main board inside the switch ( technically two of them but only one is removable ). The removable one stores the magic string and tells the switch whether the license is active or not. Nowadays of course, switches have software licensing. What I did here is not possible in those newer switches.
+</br>
+
+I also read that it was in fact possible to buy that EEPROM chip on your own along with a programmer. Sadly, the only page that offered those, **is long gone**. Maybe it's still possible to get those specific chips, but I hardly think that has any sense, especially now, in 2025.
+
+</br>
+
+**( I will put a photo of the mobo here )**
+
+![mobo](/projects@home/issues@homelab/Brocade-FLS648-firmware-issue/FLS648-mobo.jpeg)
+
+
 
 I will provide the folder here in this repository in case the only available mirror link goes down. 
 
