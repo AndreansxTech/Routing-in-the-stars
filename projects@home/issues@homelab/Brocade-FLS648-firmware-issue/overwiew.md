@@ -173,8 +173,17 @@ TFTP to Flash error - code 8
 
 Looks like the FGSR version of this firmware is not possible to load without a suitable license. Of course, I cannot do that because of obvious reason. However I searched some mode and by typing "FLS648" on the search bar on the <a href="https://fohdeesha.com/docs/">Fohdeesha docs</a> website, I found some information that specified how to manually trick the switch into thinking that it has a license enabled.</br>
 
-This part of the process consisted of manually byte-by-byte inserting a "magic string" into the flash. The command allowing us to do so, is `i2cWriteByte`. However, this command does not work in the typical level of the terminal. So I had to use a serial connection and the after logging into privelaged mode I had to click **Ctrl+Y** and **Ctrl+M** and **Enter**. After doing so, the command prompt turned from `FLS648` into `FLS-Monitor`. This is where I could use the command for manually writing data into the switch.
+This part of the process consisted of manually byte-by-byte inserting a "magic string" into the flash. The command allowing us to do so, is `i2cWriteByte`. However, this command does not work in the typical level of the terminal. So I had to use a serial connection and the after logging into privelaged mode I had to click **Ctrl+Y** and **Ctrl+M** and **Enter**. After doing so, the command prompt turned from `FLS648` into `FLS-Monitor`. This is where I could use the command for manually writing data into the switch. </br>
 
+Below are the commands I had to input. They were used to manually write the **magic string** which tells the switch that it has an active L3 license *( it doesn't )*.</br>
+
+This is possible to do, because old Brocade switches *( like the FastIron series )*, had hardware licensing mechanism. There is a EEPROM chip in the main board inside the switch ( technically two of them but only one is removable ). The removable one stores the magic string and tells the switch whether the license is active or not. Nowadays of course, switches have software licensing. What I did here is not possible in those newer switches.
+</br>
+
+I also read that it was in fact possible to buy that EEPROM chip on your own along with a programmer. Sadly, the only page that offered those, **is long gone**. Maybe it's still possible to get those specific chips, but I hardly think that has any sense, especially now, in 2025.
+
+</br>
+**( I will put a photo of the mobo here )**
 
 ```bash
 
@@ -183,17 +192,17 @@ i2c write to address 0x40 offset 0x0 value Oxfe --- PASS
 FLS-Monitor>i2cWriteByte 40 l ed
 i2c write to address 0x40 offset Oxl value Oxed --- PASS
 FLS-Monitor>i2cWriteByte 40 2 fa
-12c write to address 0x40 offset 0x2 value Oxfa --- PASS
+i2c write to address 0x40 offset 0x2 value Oxfa --- PASS
 FLS-Monitor>i2cWriteByte 40 3 ce
 i2c write to address 0x40 offset 0x3 value 0xce --- PASS
 FLS-Monitor>i2cWriteByte 40 4 1
 i2c write to address 0x40 offset 0x4 value 0xl --- PASS
 FLS-Monitor>12cWriteByte 40 5 0
-12c write to address 0x40 offset 0x5 value 0x0 --- PASS
+i2c write to address 0x40 offset 0x5 value 0x0 --- PASS
 FLS-Monitor>i2cWriteByte 40 6 1
-12c write to address 0x40 offset 0x6 value 0x1 --- PASS
+i2c write to address 0x40 offset 0x6 value 0x1 --- PASS
 FLS-Monitor>i2cWriteByte 40 7 0
-12c write to address 0x40 offset 0x7 value 0x0 --- PASS
+i2c write to address 0x40 offset 0x7 value 0x0 --- PASS
 FLS-Monitor>
 
 ```
