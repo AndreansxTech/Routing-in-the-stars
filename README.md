@@ -74,6 +74,9 @@ By actively engaging in these activities, I aim to acquire the knowledge and exp
 
 ### Explore the Homelab: Key Resources 🔍
 
+*   **Latest issue:** Check out the Brocade FastIron LS648 issue: [Firmware issue](https://github.com/AndreansxTech/My-Homelab/blob/main/projects@home/issues@homelab/Brocade-FLS648-firmware-issue/overwiew.md)
+
+
 *   **Homelab Journal 📝:** Follow my daily progress, challenges, and discoveries in the [Homelab Journal](https://github.com/AndreansxTech/My-homelab/blob/main/docs/journal.md).
 *   **Hardware Inventory 🧰:**  A detailed list of all devices in my homelab, including models and specifications: [Device Inventory](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md).
 *   **Rack Diagram 🏢:** A visual representation of my server rack setup: [Rack Diagram](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder). *Note: This is currently a placeholder.*
