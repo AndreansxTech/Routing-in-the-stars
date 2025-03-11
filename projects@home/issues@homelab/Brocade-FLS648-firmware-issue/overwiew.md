@@ -203,7 +203,7 @@ FLS-Monitor>
 This is possible to do, because old Brocade switches *( like the FastIron series )*, had hardware licensing mechanism. There is a EEPROM chip in the main board inside the switch ( technically two of them but only one is removable ). The removable one stores the magic string and tells the switch whether the license is active or not. Nowadays of course, switches have software licensing. What I did here is not possible in those newer switches.
 </br>
 
-I also read that it was in fact possible to buy that EEPROM chip on your own along with a programmer. Sadly, the only page that offered those, **is long gone**. Maybe it's still possible to get those specific chips, but I hardly think that has any sense, especially now, in 2025.
+I also read that it was in fact possible to buy that EEPROM chip on your own along with a programmer. Sadly, the only page that offered those, **is long gone**. Maybe *( but **very** unlikely )* it's still possible to get those specific chips, but I hardly think that has any sense, especially now, in 2025.
 
 </br>
 
