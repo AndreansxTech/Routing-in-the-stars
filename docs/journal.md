@@ -3,6 +3,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
 
+## 12.03.2024
+
+For now, Im still just learning about routing etc. </br>
+Nothing more really
+
+
 ## 11.03.2025
 
 Finally my package with a Xeon X5670 arrived. Now I have two identical CPUs for my R710. Those will increase the threads number to 24 and also they have a higher clock speed
