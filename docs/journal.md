@@ -3,6 +3,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
 
+## 13.03.2025
+
+I was thinking about implementing a inventory system in the homelab using Netbox. </br>
+Just gotta learn more about it
+
+
 ## 12.03.2024
 
 For now, Im still just learning about routing etc. </br>
