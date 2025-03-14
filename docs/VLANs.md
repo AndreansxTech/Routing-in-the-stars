@@ -44,6 +44,7 @@ Inter-VLAN routing will be handled by a combination of:
 
 *   **MikroTik CCR2004-1G-12S+2XS**
 *   **Brocade FastIron LS648** - Possible because of <a href="/projects@home/issues@homelab/Brocade-FLS648-firmware-issue/overwiew.md">L3 firmware</a>
+*   **additional used routing devices will be added here**
 
 The specific routing configuration (which VLANs are routed by which device) will be determined and documented separately.
 
