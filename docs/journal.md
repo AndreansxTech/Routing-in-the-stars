@@ -1,4 +1,4 @@
-# Journal*@*homelab
+# Journal@homelab
 
 
 ## I will try to write at least one entry a day here. They will mostly consist of general mention what I am doing at the time and a link to a file that Im modyfying
