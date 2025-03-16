@@ -8,7 +8,13 @@ Journal@homelab/
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
-## 15.03.2025
+
+## *16.03.2025*
+
+Today I didn`t really have time to study much about routing because of school, but I will try tomorrow
+
+
+## *15.03.2025*
 Today I worked on a project for the Terminalcraft event from Hackclub.</br>
 You can check it out <a href="https://github.com/AndreansxTech/socketpeek/">here</a>
 
