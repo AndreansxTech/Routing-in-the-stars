@@ -9,6 +9,14 @@ Journal@homelab/
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
 
+## *21.03.2025*
+
+I wasn't really able to do anything the past couple days because my dumbahh school refuses to accept that I am on a mathematical and computers profile and they just constantly make us write tests from chemistry, biology and geography lol.  
+So finally it's friday and I can learn something.  
+I managed to get my hands on a MikroTik CRS326-24S+2Q+RM. I got it really cheap ( almost 50% off of the original price ). That was a great deal. It barely worked 50 hours and looks like brand new. The only thing that was weird was that the LEDs for SFP+ ports 17-20 do not light up at startup. The logs do not specify any errors and the LEDs actually work because I tested them. So it may be just a weird bug. Maybe a RouterOS upgrade will help.  
+I also started reading more about Network+, CCNA and MTCNA certificates. There is a lot of information but I think It would be a really good idea to get to know my path ( Cisco, MikroTik etc. ) at the point where I am now. Being in second grade of middle school is I think early so Im confident that learning, as much as I can about Networking now, will help me with a job in the future.
+
+
 ## *16.03.2025*
 
 Today I didn`t really have time to study much about routing because of school, but I will try tomorrow
