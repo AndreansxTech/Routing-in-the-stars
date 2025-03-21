@@ -4,7 +4,9 @@ Journal@homelab/
 ```
 
 
-## I will try to write at least one entry a day here. They will mostly consist of general mention what I am doing at the time and a link to a file that Im modyfying
+## Homelab Journal:  Tracking Progress and Learning
+
+This journal documents my ongoing efforts to build, manage, and learn from my homelab. My long-term goal is to gain practical experience in networking, system administration, and automation, ultimately preparing for a career in IT.  I'll update this journal daily with a summary of my activities and links to related files.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
