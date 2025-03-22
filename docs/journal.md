@@ -11,6 +11,15 @@ This journal documents my ongoing efforts to build, manage, and learn from my ho
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
 
+## *22.03.2025*
+
+I learned more about routers, hops, types of communication between devices  
+I finnally understood the differences between a L2 switch, a Multilayer switch and a router.  
+I will study more about routing types and point-to-point links for communication between routers.  
+I think I really need to stop caring so much about unimportant classes in school. It's not like I don't care but I think it would be a good idea to study math and networking and that's it. The rest of the classes also take a hell lot of time but I just don't bond my future with for example chemistry or geography, you know what I mean.  
+Summing everything up, next I will watch courses on YouTube about router hops etc.
+
+
 ## *21.03.2025*
 
 I wasn't really able to do anything the past couple days because my dumbahh school refuses to accept that I am on a mathematical and computers profile and they just constantly make us write tests from chemistry, biology and geography lol.  
