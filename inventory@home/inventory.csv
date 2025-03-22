@@ -1,0 +1,17 @@
+Nazwa Urządzenia,Typ Urządzenia,Model,Numer Seryjny,Adres IP,Adres MAC,System Operacyjny,Wersja Systemu,Procesor,Pamięć RAM (GB),Pamięć Masowa (GB),Lokalizacja,Data Zakupu,Gwarancja,Notatki,Status
+Serwer Dell R720,Serwer,PowerEdge R720,XYZ1234,192.168.1.10,00:11:22:33:44:55,Ubuntu Server,22.04 LTS,2x Intel Xeon E5-2650,64,2000,Serwerownia,2022-05-10,2025-05-10,Używany do wirtualizacji,Aktywny
+NAS Synology DS920+,NAS,DiskStation DS920+,ABC5678,192.168.1.20,AA:BB:CC:DD:EE:FF,DSM,7.1,Intel Celeron J4125,8,40000 (4x10TB),Serwerownia,2023-01-15,2025-01-15,Przechowywanie danych,Aktywny
+Raspberry Pi 4,Mini-komputer,Raspberry Pi 4 Model B,DEF9012,192.168.1.30,1A:2B:3C:4D:5E:6F,Raspberry Pi OS,Bullseye,Broadcom BCM2711,8,64 (microSD),Biurko,2023-06-20,2024-06-20,Pi-hole, DNS,Aktywny
+Laptop Lenovo X1,Laptop,ThinkPad X1 Carbon Gen 9,GHI3456,DHCP,Dynamiczny,Windows 11,Pro,Intel Core i7-1185G7,16,512,Biurko,2022-10-01,2025-10-01,Laptop służbowy,Aktywny
+Switch TP-Link,Switch,TL-SG108E (8-portowy),JKL7890,192.168.1.1 (domyślny),Zarządzany przez przeglądarkę,Serwerownia,2021-12-05,2026-12-05,Główny switch sieciowy,Aktywny
+Router Mikrotik,Router,hEX S,MNO1234,192.168.1.1,Statyczny,RouterOS,7.x,Dual-core 880 MHz,256,16,Serwerownia,2023-03-10,2024-03-10,Router główny,Aktywny
+Drukarka HP LaserJet,Drukarka,LaserJet Pro M404dn,PQR5678,192.168.1.40,11:22:33:44:55:66, , , , , ,Biurko,2020-08-22,2022-08-22,Drukarka sieciowa,Aktywny
+Kamera IP Reolink,Kamera IP,RLC-810A,STU9012,192.168.1.50,22:33:44:55:66:77, , , , , ,Na zewnątrz,2023-09-01,2025-09-01,Monitoring wejścia,Aktywny
+UPS APC,UPS,Back-UPS 1500VA,VWX3456, , , , , , , ,Serwerownia,2022-02-18,2024-02-18,Podtrzymanie zasilania serwera,Aktywny
+Stacja dokująca,Stacja dokująca,Dell Thunderbolt Dock, , , , , , , ,Biurko,2023-04-05,2024-04-05,Do laptopa,Aktywny
+Monitor Dell,Monitor,UltraSharp U2720Q, , , , , , , ,Biurko,2022-11-12,2025-11-12,Główny monitor,Aktywny
+Klawiatura Logitech,Klawiatura,MX Keys, , , , , , , ,Biurko,2023-07-01,2024-07-01, ,Aktywny
+Mysz Logitech,Mysz,MX Master 3S, , , , , , , ,Biurko,2023-07-01,2024-07-01, ,Aktywny
+Głośniki,Głośniki,Logitech Z623, , , , , , , ,Biurko,2021-05-28,2023-05-28, ,Aktywny
+,Sprzęt wirtualny (VM), , , , , , , , ,Serwer Dell R720, , , ,Aktywny
+,Sprzęt wirtualny (VM), , , , , , , , ,Serwer Dell R720, , , ,Aktywny
