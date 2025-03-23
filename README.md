@@ -5,7 +5,7 @@
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/AndreansxTech/Homelab-2025?style=for-the-badge&logo=github)
-
+ 
 ## Milestones
 
 This is a list of the milestones in my Homelab project. The status will be updated accordingly to the occuring changes regularly.  
@@ -60,7 +60,7 @@ By actively engaging in these activities, I aim to acquire the knowledge and exp
 
 ### Explore the Homelab: Key Resources 🔍
 
-*   **Latest issue:** Check out the Brocade FastIron LS648 issue: [Firmware issue](https://github.com/AndreansxTech/My-Homelab/blob/main/projects@home/issues@homelab/Brocade-FLS648-firmware-issue/overwiew.md)
+*   **Latest issue:** Check out the Brocade FastIron LS648 issue: [Firmware issue](https://github.com/AndreansxTech/My-Homelab/blob/main/issues@homelab/Brocade-FLS648-firmware-issue/overwiew.md)
 
 
 *   **Homelab Journal 📝:** Follow my daily progress, challenges, and discoveries in the [Homelab Journal](https://github.com/AndreansxTech/My-homelab/blob/main/docs/journal.md).
