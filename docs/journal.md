@@ -10,6 +10,11 @@ This journal documents my ongoing efforts to build, manage, and learn from my ho
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
+## *24.03.2025*
+
+I learned some basic things about ACL and I also looked into ARP because it's really obvious that I cannot go anywhere forward without knowing those things
+
+
 
 ## *22.03.2025*
 
