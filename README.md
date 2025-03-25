@@ -1,70 +1,120 @@
 # Hi ! 👋 Happy to see you visiting my Homelab project
 
-![Static Badge](https://img.shields.io/badge/LAN_speed-Nan-%237ef728?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/Services_status-Down-%23f72847?style=for-the-badge)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)
+![Static Badge](https://img.shields.io/badge/LAN_speed-Nan-%237ef728?style=for-the-badge)  
+<!--- ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)  
+![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)  --->
+![Static Badge](https://img.shields.io/badge/Networking-%233449eb?style=for-the-badge)
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/AndreansxTech/Homelab-2025?style=for-the-badge&logo=github)
- 
-## Milestones
 
-This is a list of the milestones in my Homelab project. The status will be updated accordingly to the occuring changes regularly.  
+—
 
-- [x] **Basic Infrastructure (✅)**
-    - [x] Purchase of first servers (Dell PowerEdge R610, R710)
-    - [x] Installation and configuration of Proxmox Virtual Environment on R710
-    - [ ] Basic network configuration (VLANs, routing) - *In progress*
-- [ ] **Gigabit Ethernet Network (❌)**
-    - [ ] Full configuration of the 1GbE network
-    - [ ] Testing and optimization of network performance
-- [ ] **Storage and Backup (❌)**
-    - [ ] Configuration of a NAS server
-    - [ ] Implementation of a backup strategy for Proxmox
-- [ ] **Multimedia (❌)**
-    - [ ] Launching a Plex/Jellyfin server
-- [ ] **10 Gigabit Ethernet Network (❌)**
-    - [ ] Purchase and configuration of 10GbE hardware
-    - [ ] Migration of key services to the 10GbE network
+## Learning Tracks
 
-[ .. more to come here .. ]
+Here’s a breakdown of the networking areas I’m actively exploring and experimenting with in my homelab. This lab isn’t about finishing anything – I will mostl likely reset configurations often, rebuild topologies from scratch, and try out different methods to reinforce concepts. It’s an ongoing cycle of experimentation and learning.
+
+### **1. Lab Infrastructure & Virtualization**
+
+> Getting the environment ready for hands-on learning
+
+- Setup of physical servers (Dell PowerEdge R610 and R710)  
+- Installation and use of **Proxmox VE** for virtualization  
+- Using backup and snapshot tools to iterate fast
+
+### **2. VLANs & Layer 2 Switching**
+
+> Learning isolation, segmentation, and L2 communication
+
+- VLAN creation and tagging (802.1Q)  
+- Trunk vs access ports  
+- Practice with VLAN interfaces (SVIs)  
+- Using Brocade CLI for L2 configuration  
+
+
+### **3. Layer 3 Concepts & Routing**
+
+> Understanding how traffic moves between subnets
+
+- Static routing and basic concepts of dynamic routing  
+- RIP v1/v2 lab scenarios  
+- Inter-VLAN routing using Layer 3 switch  
+- Introduction to CIDR, subnetting, and route summarization  
+- Practicing route inspection and troubleshooting
+
+### **4. Addressing & Network Services**
+
+> Playing with the building blocks of communication
+
+- MAC addressing, ARP, and IP addressing  
+- DHCP configuration and IP pool planning  
+- DNS basics and practical server setup  
+- Introduction to NAT and PAT  
+- TFTP server setup for firmware and config uploads
+
+### **5. Monitoring & Discovery**
+
+> Making the network observable and self-documenting
+
+- SNMP, CDP, LLDP experiments  
+- Syslog and basic logging of events  
+- Topology mapping and automatic discovery  
+
+
+### **6. Protocol Labs & Real-World Simulation**
+
+> Simulating realistic enterprise behaviors
+
+- STP and redundancy basics (concept only for now)  
+- Multi-switch VLAN labs  
+- Router-on-a-stick setup  
+- Testing convergence and failover behavior  
+- Mixing real hardware with virtualized routers
+
+### **7. Certification Labs & Theory**
+
+> Following a progression toward industry credentials
+
+- Currently focusing on **CompTIA Network+**  
+- MikroTik MTCNA practice (using real CCR/CRS devices)  
+- Introduction to CCNA-level labs  
+- Building foundational knowledge in CLI usage  
+- Using the homelab as an offline CCNA/MTCNA sandbox
+
+—
 
 ## Plans for now
 
-For now I would like to create a NAS server, Backup server for proxmox, TFTP server for my network hardware, Plex / Jellyfin Media Server and Minecraft server. Currently Im learning general theory about VLANs.  *Expect to see some hand-drawn diagrams and notes as I work through these concepts!*
+I’m not hosting services anymore – instead, I’m focused entirely on **learning networking**.  
+Right now, I’m studying for the **CompTIA Network+ certification**, mostly with online courses. It's not like I will be able to take the exam anytime soon because I am still in middle school but that actually gives me a kind of a headstart
+
+Expect a mix of command-line configs, hand-drawn diagrams, and technical notes. The lab will be rebuilt over and over as I progress through different networking topics and certifications.
+
+—
 
 ## Practical Networking: My Homelab Documentation 🧐
 
-This repository is a hands-on resource documenting my experiences with building and maintaining a homelab network. I’ll be sharing practical configurations, scripts, and insights gained from real-world troubleshooting, with a focus on preserving knowledge about older or less common hardware. *In addition to text and code, I'm using my iPad and Apple Pencil to create visual notes, diagrams, and sketches that complement the technical details.*
+This repository serves as my personal knowledge base for learning network engineering through real hardware and configurations. I document every step with code, text, and diagrams (maybe  drawn on my iPad), especially focusing on older hardware like Brocade switches that are still useful in labs but lack modern documentation.
 
-A addition goal is to contribute to the longevity of network knowledge. This includes documenting solutions for obscure devices where information is scarce, and even archiving firmware and relevant resources to prevent them from disappearing from the internet. For example look at the <a href="https://github.com/AndreansxTech/My-homelab/blob/main/projects@home/issues@homelab/Brocade-FLS648-firmware-issue/overwiew.md">Brocade FLS648 issue</a>
+I also archive firmware and rare config examples to contribute to the long-term preservation of networking know-how.
 
-Expect to find configuration files for network devices, server setups, files, and automation scripts ( with sensitive information redacted, naturally ). Whether you’re a seasoned network engineer or just starting out, I hope this repository provides valuable inspiration and guidance, and contributes to the collective knowledge of the networking community.
-
-## Project Ignition: Laying the Foundation
-
-While my fascination with technology dates back many years, my engagement was largely theoretical, limited to activities like custom ROM flashing. The turning point came during a summer break, when I realized the potential for building a dedicated learning environment within my home. A combination of a spacious room and readily available high-speed internet created the ideal conditions for a homelab.
-
-The project officially launched in mid-October 2024 with the acquisition of two Dell PowerEdge servers: an R610 and an R710. Intrigued by the capabilities of Proxmox Virtual Environment, I quickly installed it on the R710 and began experimenting with virtual machines, deploying instances such as Windows 11 and a dedicated Ubuntu Server for hosting a Minecraft server. These initial steps laid the foundation for a more comprehensive exploration of network engineering principles.  *I'll be documenting this journey with a combination of text, code, and hand-written notes created on my iPad.*
+—
 
 ## The Goal 📈
 
-My objective is to develop practical skills in network engineering to pursue a career in this field. This homelab provides a platform to gain hands-on experience in areas such as:
+My goal is to become a professional network engineer.  
+This homelab gives me a hands-on way to:
 
-*   Network design and implementation
-*   Routing and switching protocols
-*   Network security
-*   Server administration
-*   Troubleshooting and problem-solving
+*   Practice designing and troubleshooting real networks  
+*   Learn routing/switching protocols and concepts deeply  
+*   Get ready for certifications like Network+, MTCNA, and CCNA  
+*   Explore the behavior of both virtual and physical network devices
 
-By actively engaging in these activities, I aim to acquire the knowledge and experience needed to excel in a network engineering role.
+—
 
-### Explore the Homelab: Key Resources 🔍
+## Explore the Homelab: Key Resources 🔍
 
-*   **Latest issue:** Check out the Brocade FastIron LS648 issue: [Firmware issue](https://github.com/AndreansxTech/My-Homelab/blob/main/issues@homelab/Brocade-FLS648-firmware-issue/overwiew.md)
-
-
-*   **Homelab Journal 📝:** Follow my daily progress, challenges, and discoveries in the [Homelab Journal](https://github.com/AndreansxTech/My-homelab/blob/main/docs/journal.md).
-*   **Hardware Inventory 🧰:**  A detailed list of all devices in my homelab, including models and specifications: [Device Inventory](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md).
-*   **Rack Diagram 🏢:** A visual representation of my server rack setup: [Rack Diagram](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder). *Note: This is currently a placeholder.*
-*   **Network Topology 🌐:**  An overview of my network architecture and connections: [Network Diagram](https://github.com/AndreansxTech/My-homelab/blob/main/docs/general-network-topology.png).
- 
+*   **Latest issue:** [Brocade FastIron LS648 firmware problem](https://github.com/AndreansxTech/My-Homelab/blob/main/issues@homelab/Brocade-FLS648-firmware-issue/overwiew.md)  
+*   **Homelab Journal 📝:** [My learning log](https://github.com/AndreansxTech/My-homelab/blob/main/docs/journal.md)  
+*   **Hardware Inventory 🧰:** [Device list](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/devices.md)  
+*   **Rack Diagram 🏢:** [Rack layout (placeholder)](https://github.com/AndreansxTech/Homelab-2025/blob/main/Inventory/rack-diagram-placeholder)  
+*   **Network Topology 🌐:** [Current topology](https://github.com/AndreansxTech/My-homelab/blob/main/docs/general-network-topology.png)
