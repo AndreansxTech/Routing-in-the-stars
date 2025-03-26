@@ -10,6 +10,11 @@ This journal documents my ongoing efforts to build, manage, and learn from my ho
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
+## *26.03.2025*
+
+I learned some more about point-to-point links between routers in a LAN.  
+I also clarified my profile readme file to make it more formal so that it clearly states what I am learning etc
+
 
 ## *25.03.2025*
 
