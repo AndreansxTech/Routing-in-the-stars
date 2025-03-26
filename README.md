@@ -1,7 +1,11 @@
 # Hi ! 👋 Happy to see you visiting my Homelab project
 
-<!— ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)  
-![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)  —>
+
+<!---
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)  
+![Proxmox](https://img.shields.io/badge/proxmox-proxmox?style=for-the-badge&logo=proxmox&logoColor=%23E57000&labelColor=%232b2a33&color=%232b2a33)
+-->
+
 
 ![Static Badge](https://img.shields.io/badge/LAN_speed-Nan-%237ef728?style=for-the-badge)  
 ![Static Badge](https://img.shields.io/badge/Networking-%233449eb?style=for-the-badge)
