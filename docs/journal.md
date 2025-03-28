@@ -10,6 +10,12 @@ This journal documents my ongoing efforts to build, manage, and learn from my ho
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
+## *28.03.2025*
+
+I did a lot regarding different project.  
+You can check it out <a href="https://github.com/AndreansxTech/Staszic360/commits/main?since=2025-03-26&until=2025-03-28">here</a>
+
+
 ## *26.03.2025*
 
 I learned some more about point-to-point links between routers in a LAN.  
