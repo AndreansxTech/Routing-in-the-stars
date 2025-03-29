@@ -10,6 +10,12 @@ This journal documents my ongoing efforts to build, manage, and learn from my ho
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
+## *29.03.2025*
+
+Today I did a lot of things in my other project. You can check out the changes <a href="https://github.com/AndreansxTech/Staszic360/commits/preview/?since=2025-03-29&until=2025-03-29">here</a>  
+Also I started deploying my portfolio website using GitHub Pages. You can look at it <a href="https://github.com/AndreansxTech/AndreansxTech.github.io">here</a>
+
+
 ## *28.03.2025*
 
 I did a lot regarding different project.  
