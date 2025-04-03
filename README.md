@@ -7,7 +7,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/AndreansxTech/Homelab-2025?style=for-the-badge&logo=github)
 
 —
-
+##### Archiv 03.04.2025
 ## What is this repo?
 
 This is **not a self-hosting lab** with NAS, media servers, etc.  
