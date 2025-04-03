@@ -10,6 +10,12 @@ This journal documents my ongoing efforts to build, manage, and learn from my ho
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andreansxtech/my-homelab?path=docs%2Fjournal.md&display_timestamp=author&style=for-the-badge)
 
+## *03.04.2025*
+
+I am working now more on <a href="https://github.com/AndreansxTech/Staszic360/">Staszic360</a> project, and I finished chapter 3 of Github Fundamentals track on Datacamp.  
+Kind of a little break from networking. I do not mean that like I do not want to learn networking but I just have more work right now
+
+
 ## *01.04.2025*
 
 Yesterday I started taking a Datacamp course for the GitHub Fundamentals Certification. I am on chapter two now. I think this could be a great opportunity for my first real certification.
